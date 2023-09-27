@@ -1,4 +1,4 @@
-.wd-kanbas.list-group {
+.wd-cantvas.list-group {
     border-radius: 0%;
     border-color: black;
     margin-right: 0px;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.wd-kanbas.list-group > .list-group-item {
+.wd-cantvas.list-group > .list-group-item {
     background-color: black;
     border-color: black;
     text-align: center;
@@ -17,7 +17,7 @@
     
 }
 
-.wd-kanbas.list-group > .list-group-item > a {
+.wd-cantvas.list-group > .list-group-item > a {
     color: white;
     margin-top: 5px;
     text-decoration: none;
@@ -26,7 +26,7 @@
     
 }
 
-.wd-kanbas.list-group > .list-group-item-active {
+.wd-cantvas.list-group > .list-group-item-active {
     background-color: white;
     border-color: white;
     text-align: center;
@@ -36,25 +36,25 @@
     text-decoration: none;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > a {
+.wd-cantvas.list-group > .list-group-item-active > a {
     color: red;
     margin-top: 5px;
     text-decoration: none;
     font-size: 0.5em;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > i {
+.wd-cantvas.list-group > .list-group-item-active > i {
     font-size: 1.5em;
     color: red;
 }
 
 
-.wd-kanbas.list-group > .list-group-item > i {
+.wd-cantvas.list-group > .list-group-item > i {
     font-size: 1.5em;
     color: red;
 }
 
-.wd-kanbas.list-group > .list-group-item i.fa-user {
+.wd-cantvas.list-group > .list-group-item i.fa-user {
     font-size: 1em;
     color: white;
 }
@@ -258,14 +258,14 @@ align-self: end;}
     flex: 0 0 auto;
     width: 200px;
 }
-.wd-kanbas.list-group {
+.wd-cantvas.list-group {
     border-radius: 0%;
     border-color: black;
     margin-right: 20px;
    
 }
 
-.wd-kanbas.list-group > .list-group-item {
+.wd-cantvas.list-group > .list-group-item {
     background-color: black;
     border-color: black;
     text-align: center;
@@ -275,7 +275,7 @@ align-self: end;}
     
 }
 
-.wd-kanbas.list-group > .list-group-item > a {
+.wd-cantvas.list-group > .list-group-item > a {
     color: white;
     margin-top: 5px;
     text-decoration: none;
@@ -284,7 +284,7 @@ align-self: end;}
     
 }
 
-.wd-kanbas.list-group > .list-group-item-active {
+.wd-cantvas.list-group > .list-group-item-active {
     background-color: white;
     border-color: white;
     text-align: center;
@@ -293,30 +293,30 @@ align-self: end;}
     text-decoration: none;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > a {
+.wd-cantvas.list-group > .list-group-item-active > a {
     color: red;
     margin-top: 5px;
     text-decoration: none;
     font-size: 0.6em;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > i {
+.wd-cantvas.list-group > .list-group-item-active > i {
     font-size: 2em;
     color: red;
 }
 
 
-.wd-kanbas.list-group > .list-group-item > i {
+.wd-cantvas.list-group > .list-group-item > i {
     font-size: 2em;
     color: red;
 }
 
-.wd-kanbas.list-group > .list-group-item i.fa-user {
+.wd-cantvas.list-group > .list-group-item i.fa-user {
     font-size: 2em;
     color: white;
 }
 
-.wd-kanbas.list-group > .list-group-item-active i.fa-user {
+.wd-cantvas.list-group > .list-group-item-active i.fa-user {
     font-size: 2em;
     color: black;
 }
@@ -387,7 +387,7 @@ a {
     color: red;
     text-decoration: none; /* Optional: Removes underline */
 }
-.wd-kanbas.list-group {
+.wd-cantvas.list-group {
     border-radius: 0%;
     border-color: black;
     margin-right: 0px;
@@ -395,7 +395,7 @@ a {
     height: 100vh;
 }
 
-.wd-kanbas.list-group > .list-group-item {
+.wd-cantvas.list-group > .list-group-item {
     background-color: black;
     border-color: black;
     text-align: center;
@@ -406,7 +406,7 @@ a {
     
 }
 
-.wd-kanbas.list-group > .list-group-item > a {
+.wd-cantvas.list-group > .list-group-item > a {
     color: white;
     margin-top: 5px;
     text-decoration: none;
@@ -415,7 +415,7 @@ a {
     
 }
 
-.wd-kanbas.list-group > .list-group-item-active {
+.wd-cantvas.list-group > .list-group-item-active {
     background-color: white;
     border-color: white;
     text-align: center;
@@ -425,25 +425,25 @@ a {
     text-decoration: none;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > a {
+.wd-cantvas.list-group > .list-group-item-active > a {
     color: red;
     margin-top: 5px;
     text-decoration: none;
     font-size: 0.5em;
 }
 
-.wd-kanbas.list-group > .list-group-item-active > i {
+.wd-cantvas.list-group > .list-group-item-active > i {
     font-size: 1.5em;
     color: red;
 }
 
 
-.wd-kanbas.list-group > .list-group-item > i {
+.wd-cantvas.list-group > .list-group-item > i {
     font-size: 1.5em;
     color: red;
 }
 
-.wd-kanbas.list-group > .list-group-item i.fa-user {
+.wd-cantvas.list-group > .list-group-item i.fa-user {
     font-size: 1em;
     color: white;
 }
@@ -687,7 +687,7 @@ align-self: end;}
     text-decoration: none;
     
 }
-.wd-kanbas.list-group-centerpage > .list-group-item > a {
+.wd-cantvas.list-group-centerpage > .list-group-item > a {
     color: white;
     margin-top: 5px;
     text-decoration: none;
