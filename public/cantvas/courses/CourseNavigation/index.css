@@ -770,3 +770,10 @@ li {
         height: 100px; /* Sets the height to 100 pixels */
         width: 200px; /* Sets the width to 200 pixels */
       }
+      .border-grey {
+        border-bottom: 1px solid grey; /* Adjust border color and size as needed */
+    }
+
+    .text-small {
+        font-size: 0.8em; /* Adjust font size as needed */
+    }

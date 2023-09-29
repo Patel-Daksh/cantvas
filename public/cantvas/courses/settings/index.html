@@ -167,237 +167,419 @@
 
   <div class="tab-pane fade show active" id="content1" role="tabpanel" aria-labelledby="tab1"><div>
     <div class="flex-fill">
-      <div class="row">
-<div style="padding: 5px;"><label> Course Name </label></div>
+      <div class="row" style="padding-left: 20px;">
+<div style="padding: 5px;"><h3>Course Name </h3></div>
 <!-- <div class="container">
 <input value="Assignment 1 - HTML"
 class="form-control float-end"
      placeholder="Assignment Name" /></div> -->
-<div class="container" style="padding: 5px;" >
-  <input value="Assignment 1 - HTML"
-  class="form-control float-end"
-         placeholder="Assignment Name" /></div>
-<div class="container" style="padding: 5px;">
-<textarea class="form-control float-end h-20">This is the first assignment to build cantvas</textarea></div>
-<div class="container-fluid" style="width: 800px; align-items: center;">
+
+<!--------------------------------------------------------------------Image--------------------------------------------------------------------------------------------->
+
+
   <div class="row" style="align-items: center ;padding-top: 10px" >
-    
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-      <label>Points</label>
-                            </div>
-    <div class="col-md-6">
-      <input class="form-control" value="100" type="number" max="100" min="50" step="5" />
+      
+      <div class="col-md-3" style="padding-left: 20px;">
+        <label>Image:</label>
+                              </div>
+      <div class="col-md-4">
+        <div style="height: 200px; border: 1px solid #000; display: flex; justify-content: center; align-items: center;">
+          <button type="button" class="student-view-1 ">Choose Image</button></div>
+
+      </div>
     </div>
+
+<!----------------------------------------------------------------------Name------------------------------------------------------------------------------------------->
+
+
+    <div class="row" style="align-items: center ;padding-top: 10px" >
+      
+      <div class="col-md-3" style="padding-left: 20px;">
+        <label>Name:</label>
+                              </div>
+      <div class="col-md-5">
+        <label>CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1-TR]</label>
+      </div>
+    </div>
+
+<!----------------------------------------------------------------------Course Code------------------------------------------------------------------------------------------->
+
+
+    <div class="row" style="align-items: center ;padding-top: 10px" >
+      
+      <div class="col-md-3" style="padding-left: 20px;">
+        <label>Course Code:</label>
+                              </div>
+      <div class="col-md-5">
+        <label>CS4550.12631.201410</label>
+      </div>
+    </div>
+
+<!----------------------------------------------------------------------Blueprint Course------------------------------------------------------------------------------------------->
+
+
+    <div class="row" style="align-items: center ;padding-top: 10px" >
+      
+      <div class="col-md-3" style="padding-left: 20px;">
+        <label>Blueprint Course:</label>
+      </div>
+      <div class="col-md-5">
+        <label>No</label>
+      </div>
+    </div>
+
+<!----------------------------------------------------------------------Course Template------------------------------------------------------------------------------------------->
+
+
+    <div class="row" style="align-items: center ;padding-top: 10px" >
+      
+      <div class="col-md-3" style="padding-left: 20px;">
+        <label>Course Template:</label>
+      </div>
+      <div class="col-md-5">
+        <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Enable course as a Course Template </label>
+      </div>
+    </div>
+
+<!----------------------------------------------------------------------Time Zone------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Time Zone:</label>
   </div>
+  <div class="col-md-5">
+    <select class="form-control ">
+      <option value="option1">Eastern Time(US & Canada)(-5:00/-4:00)</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select>      
+  </div>
+</div>
 
-<!--------------------------------------------------------------------Assignment Group--------------------------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------SIS ID------------------------------------------------------------------------------------------->
 
 
-  <div class="row" style="align-items: center ;padding-top: 10px" >
+<div class="row" style="align-items: center ;padding-top: 10px" >
       
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Assignment Group</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Assignemnts</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-          </select>
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>SIS ID:</label>
+                          </div>
+  <div class="col-md-5">
+    <label>CS4550.12631.201410</label>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------Subaccount------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Subaccount:</label>
+                          </div>
+  <div class="col-md-5">
+    <label style="color: red;">CS Undergrad</label>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------Term------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Term:</label>
+                          </div>
+  <div class="col-md-5">
+    <label>202410_1 Fall 2023 Semester Full Term</label>
+  </div>
+</div>
+
+
+<!----------------------------------------------------------------------Participation------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Participation:</label></div>
+    <div class="col-md-5">
+      <select class="form-control ">
+      <option value="option1">Term</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select> 
+      <div class="row" style="padding-top: 5px;">
+
+            <label>Course participation is limited to term start and end dates.</label>
+
       </div>
-    </div>
+      <div class="row" style="padding-top: 5px;">
 
-<!----------------------------------------------------------------------Display Grade as------------------------------------------------------------------------------------------->
+        <h5>Start</h5>
 
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-         <label>Display Grade as</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Points</option>
-              <option value="option2">Percentage</option>
-              <option value="option3">Complete/Incomplete</option>
-              </select>
+  </div>
+      <div class="row">
+      <div class="col-sm" style="padding-right: 20;">
+      <input type="date"
+           id="text-fields-due"
+            value="2021-01-01" />
+            <!-- <br /> -->
       </div>
-    </div>
+      </div>
 
-<!--------------------------------------------------------------------------Submission Type--------------------------------------------------------------------------------------->
+      <div class="row" style="padding-top: 5px;">
 
+        <h5>End</h5>
 
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Submission Type</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Online</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                            </div>
-    </div>
+  </div>
+      <div class="row">
+      <div class="col-sm" style="padding-right: 20;">
+      <input type="date"
+           id="text-fields-due"
+            value="2021-01-01" />
+      </div>
 
-<!------------------------------------------------------------------------------Online Entry Options----------------------------------------------------------------------------------->
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Online Entry Options</label>
-                              </div>
-      <div class="col-md-6">
-          <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Text Entry</label>
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Website URL
-  </label>
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label"> Media Recordings</label>
-      
+</div>
+<div class="row" style="padding-top: 5px;">
+<div>
+  <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Restrict students from viewing course before term start date </label>
+</div>
+</div>
+<div class="row" style="padding-top: 5px;">
+  <div>
+    <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Restrict students from viewing course after term end date </label>
+  </div>
+  </div>
   
-  <br />
-  <input   class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label"> Student Annotation</label>
+</div>
+
+
+
+<!----------------------------------------------------------------------Default due time------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="padding-top: 10px" >
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Default due time:</label></div>
+    <div class="col-md-5">
+      <select class="form-control ">
+      <option value="option1">Account default (11:59pm)</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select> 
+      <div class="row" style="padding-top: 5px;">
+            <label>This influences the user interface for setting due dates.It does not change the time due for any existing assignments</label>
+      </div>
+</div>
+
+<!----------------------------------------------------------------------Language------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="padding-top: 10px" >
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Language:</label></div>
+    <div class="col-md-5">
+      <select class="form-control ">
+      <option value="option1">Not set (user-configurable,defaults to English(Unit))</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select> 
+      <div class="row" style="padding-top: 5px;">
+            <label>This will override any userr/system language preferences.This is only recommended for foreign language courses</label>
+      </div>
+</div>
+<!----------------------------------------------------------------------File Storage------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
       
-  
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">File Uploads </label>                            </div>
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>File Storage:</label>
+                          </div>
+  <div class="col-md-5">
+    <label>10000 megabytes</label>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------Large Course------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Large Course:</label>
+  </div>
+  <div class="col-md-5">
+    <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Launch SpeedGrader Filtered by Student Group </label>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------Grading Scheme------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Grading Scheme:</label>
+  </div>
+  <div class="col-md-5">
+    <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Enable course grading scheme </label>
+  </div>
+</div>
+
+ <!--------------------------------------------------------------------------Licenese--------------------------------------------------------------------------------------->
+
+<div class="row" style="padding-top: 10px" >
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Licenese</label></div>
+    <div class="col-md-5">
+      <select class="form-control ">
+      <option value="option1">Private(Copyrighted)</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select> 
     </div>
+    <div class="col-md-1" >
+      <div style="
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      /* height: -webkit-fill-available; */
+      align-self: center;
+      align-content: center;
+      align-items: center;
+      align-self: center;
+  "><i class="fa fa-question" style="justify-content: flex-end;color: red;align-self: center;font-size: 20;/* width: 30px; *//* height: 30px; */"></i></div></div>
+      
+</div>
 
-<!-------------------------------------------------------------------------------------Submission Attempts---------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Submission Attempts</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Unlimited</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                           </div>
-    </div>
-
-<!--------------------------------------------------------------------------------------Plaigarism Review--------------------------------------------------------------------------->
+<!----------------------------------------------------------------------File Copyright------------------------------------------------------------------------------------------->
 
 
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Plaigarism Review</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">None</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                            </div>
-    </div>
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>File Copyright:</label>
+  </div>
+  <div class="col-md-9">
+      <div><input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">
+        Copyright and license information must be provided for files before they are published</label>
+</div>
+</div>
 
-<!-----------------------------------------------------------------------------Group Assignment------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------Visibility------------------------------------------------------------------------------------------->
 
 
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Group Assignment</label>
-                              </div>
-      <div class="col-md-6">
-          <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">This is a group assignment </label>
+<div class="row" style="padding-top: 10px" >
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Visibility:</label></div>
+    <div class="col-md-9" >
+      <label>If you need to make your course public please contact your administrator/support </label>
+
+    <div class="row">
+      <div class="col-md-5">
+        <select class="form-control ">
+        <option value="option1">Course</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        </select> 
       </div>
+        <div class="col-md-1" >
+          <div style="
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          /* height: -webkit-fill-available; */
+          align-self: center;
+          align-content: center;
+          align-items: center;
+          align-self: center;
+      "><i class="fa fa-question" style="justify-content: flex-end;color: red;align-self: center;font-size: 20;/* width: 30px; *//* height: 30px; */"></i></div></div>
+          <div class="row" style="padding-top: 5px;">
+            <div>
+              <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Include this course in the public course index</label>
+            </div>
+            </div>
+</div>
     </div>
 
-<!-------------------------------------------------------------------------------Peer Reviews---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------Formate------------------------------------------------------------------------------------------->
 
 
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Peer Reviews</label>
-                              </div>
-      <div class="col-md-6">
-          <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Require Peer Reviews </label>
-      </div>
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Formate:</label>
+  </div>
+  <div class="col-md-5">
+    <select class="form-control ">
+      <option value="option1">On-Campus</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      </select>      
+  </div>
+</div>
+
+</div>
+<!----------------------------------------------------------------------Mastery Path------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="align-items: center ;padding-top: 10px" >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Mastery Path:</label>
+  </div>
+  <div class="col-md-9">
+      <div><input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Enable individual learning paths for students based on assessment</label>
+</div>
+</div>
+
+
+<!----------------------------------------------------------------------Participation------------------------------------------------------------------------------------------->
+
+
+<div class="row" style="padding-top: 10px " >
+      
+  <div class="col-md-3" style="padding-left: 20px;">
+    <label>Description:</label></div>
+    <div class="col-md-7" style="100px">
+    <div class="row">
+      <div> <textarea class="form-control float-end h-10">This is the first assignment to build cantvas</textarea>
     </div>
-
-<!--------------------------------------------------------------------------------------Assign--------------------------------------------------------------------------->
-
-
-<div class="row" style="align-items: center ;padding-bottom: 10px;padding-top: 10px " >
-<div class="col-md-6" style="text-align: end;padding-right: 20px;">
-<label>Assign</label>
-      </div>
-<div class="col-md-6">
-<label>Assign To</label><br />
-<select class="form-control ">
-<option value="option1">Everyone</option>
-<option value="option2">Option 2</option>
-<option value="option3">Option 3</option>
-</select> 
-<div class="row" >
-<div class="col-sm">
-<label>Due</label>
+    </div>
+ 
+<div class="row" style="padding-top: 5px; padding-bottom: 20px;">
+  <div>
+     <label style="color: red;"> more option </label>
+  </div>
+  </div>
+    
 </div>
 </div>
-<div class="row">
-<div class="col-sm" style="padding-right: 20;">
-<input type="date"
-     id="text-fields-due"
-      value="2021-01-01" />
-      <!-- <br /> -->
-</div>
-</div>
-<div class="row" >
-<div class="col-sm" style="padding-right: 20;">
-<div><label>Available from</label>
-</div>
-<div class="col-sm" style="padding-right: 20;">
 
-<input type="date"
-id="text-fields-due"
- value="2021-01-01" />
- <br />
-</div></div>
-
-
-<div class="col-sm">
-<div><label>Until</label>
-</div>
-<!-- <br /><br /> -->
-
-<div class="col-sm" style="padding-right: 20;">
-
-<input type="date"
-id="text-fields-due"
- value="2021-01-01" />
- <br />
-</div>
-
-</div>                           </div>
-
-</div>
-
-
-</div>
-
-</div> 
-<hr style="padding-top: 10px;margin-inline-start: 0px"/>  
+ 
+<hr margin-inline-start: 0px"/>  
 
 <div class="container" style="align-self: center;">
 
 <div class="center-frame">
-<div style="padding-top: 10px;">
-<input class = "form-check-input" type="checkbox" id="textEntry" /></div>
-<div style="padding-top: 10px;">
-<label class="form-check-label" style="width: 500; padding-left: 5px;" > Notify users that this content has changed </label>
+
 </div>
 <!-- Edit Icon not showing up-->
+
+
+<!-- Edit Icon not showing up-->
 <div class="container-fluid" style="align-self: center; ">
-<button type="button" class="student-view-1 float-end  " style="background-color: red; color: white; margin-left: 20px; ">Save</button>
-<button type="button" class="student-view-1 float-end ">Cancel</button>
-
+<button type="button" class="student-view-1 float-end  " style="background-color: red; color: white; margin-left: 20px; ">Update Course Details</button>
 </div>
 </div>
 
 
 </div>
-<hr style="padding-top: 10px; padding-bottom: 10px; margin-inline-start: 0px  "/>  
 
 
 
@@ -625,16 +807,10 @@ id="text-fields-due"
 <div class="container" style="align-self: center;">
 
 <div class="center-frame">
-<div style="padding-top: 10px;">
-<input class = "form-check-input" type="checkbox" id="textEntry" /></div>
-<div style="padding-top: 10px;">
-<label class="form-check-label" style="width: 500; padding-left: 5px;" > Notify users that this content has changed </label>
-</div>
+
 <!-- Edit Icon not showing up-->
 <div class="container-fluid" style="align-self: center; ">
-<button type="button" class="student-view-1 float-end  " style="background-color: red; color: white; margin-left: 20px; ">Save</button>
-<button type="button" class="student-view-1 float-end ">Cancel</button>
-
+<button type="button" class="student-view-1 float-end  " style="background-color: red; color: white; margin-left: 20px; ">Update Course Details</button>
 </div>
 </div>
 
@@ -651,247 +827,209 @@ id="text-fields-due"
   </div></div>
   <!-------------------------------------------------------------------------------Nevigation Name------------------------------------------------------------------->
 
-  <div class="tab-pane fade" id="content3" role="tabpanel" aria-labelledby="tab3"><div>
+  <div class="tab-pane fade" id="content3" role="tabpanel" aria-labelledby="tab3">
+    <br/>
     <div class="flex-fill">
-      <div class="row">
-<div style="padding: 5px;"><label> Nevigation Name </label></div>
-<!-- <div class="container">
-<input value="Assignment 1 - HTML"
-class="form-control float-end"
-     placeholder="Assignment Name" /></div> -->
-<div class="container" style="padding: 5px;" >
-  <input value="Assignment 1 - HTML"
-  class="form-control float-end"
-         placeholder="Assignment Name" /></div>
-<div class="container" style="padding: 5px;">
-<textarea class="form-control float-end h-20">This is the first assignment to build cantvas</textarea></div>
-<div class="container-fluid" style="width: 800px; align-items: center;">
-  <div class="row" style="align-items: center ;padding-top: 10px" >
+      <label>Drag and drop items to reorder them in the couse navigation</label>
+      <br/>
+      <br/>
+      <div class="container border border-grey">
+        
+        <div class="row border-bottom border-grey">
+            <div class="col">
+                <label class="pt-2 pb-2">Home</label>
+            </div>
+        </div>
     
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-      <label>Points</label>
-                            </div>
-    <div class="col-md-6">
-      <input class="form-control" value="100" type="number" max="100" min="50" step="5" />
+        <div class="row border-bottom border-grey">
+            <div class="col">
+              <label class="pt-2 pb-2">Modules</label>
+              <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+            </div>
+        </div> 
+        
+        <div class="row border-bottom border-grey">
+          <div class="col">
+            <label class="pt-2 pb-2">Piazza</label>
+            <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+          </div>
+      </div> 
+
+      <div class="row border-bottom border-grey">
+        <div class="col">
+          <label class="pt-2 pb-2">Zoom Meetings</label>
+          <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+        </div>
+    </div> 
+
+    <div class="row border-bottom border-grey">
+      <div class="col">
+        <label class="pt-2 pb-2">Assignemnts</label>
+        <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+      </div>
+  </div> 
+
+  <div class="row border-bottom border-grey">
+    <div class="col">
+      <label class="pt-2 pb-2">Quizzes</label>
+      <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
     </div>
+</div> 
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+    <label class="pt-2 pb-2">Grades</label>
+    <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+  </div>
+</div> 
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+    <label class="pt-2 pb-2">People</label>
+    <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+  </div>
+</div> 
+
+<div class="row">
+  <div class="col">
+    <label class="pt-2 pb-2">Panopto Video</label>
+    <i class="fa fa-ellipsis-v float-end pt-2 pb-2" aria-hidden="true"></i>
+  </div>
+</div> 
+      </div>
+      <br/>
+
+<label>Drag items here to hide them from students</label>
+<label>Disabling this will cause student who visit those pages to be restricted to the course page</label>
+
+<div class="container border border-grey">
+        
+  <div class="row border-bottom border-grey">
+      <div class="col">
+          <label class="pt-2">Chat</label><br/>
+          <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+          <label class="text-small pb-2">  This page won't appear in navigation </label>     
+      </div>
   </div>
 
-<!--------------------------------------------------------------------Assignment Group--------------------------------------------------------------------------------------------->
-
-
-  <div class="row" style="align-items: center ;padding-top: 10px" >
-      
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Assignment Group</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Assignemnts</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-          </select>
-      </div>
+  <div class="row border-bottom border-grey">
+    <div class="col">
+        <label class="pt-2">SCORM</label><br/>
+        <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+        <label class="text-small pb-2">  This page won't appear in navigation </label>     
     </div>
-
-<!----------------------------------------------------------------------Display Grade as------------------------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-         <label>Display Grade as</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Points</option>
-              <option value="option2">Percentage</option>
-              <option value="option3">Complete/Incomplete</option>
-              </select>
-      </div>
-    </div>
-
-<!--------------------------------------------------------------------------Submission Type--------------------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Submission Type</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Online</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                            </div>
-    </div>
-
-<!------------------------------------------------------------------------------Online Entry Options----------------------------------------------------------------------------------->
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Online Entry Options</label>
-                              </div>
-      <div class="col-md-6">
-          <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Text Entry</label>
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Website URL
-  </label>
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label"> Media Recordings</label>
-      
+</div>
   
-  <br />
-  <input   class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label"> Student Annotation</label>
-      
-  
-  <br />
-  <input class="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">File Uploads </label>                            </div>
-    </div>
-
-<!-------------------------------------------------------------------------------------Submission Attempts---------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Submission Attempts</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">Unlimited</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                           </div>
-    </div>
-
-<!--------------------------------------------------------------------------------------Plaigarism Review--------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Plaigarism Review</label>
-                              </div>
-      <div class="col-md-6">
-          <select class="form-control ">
-              <option value="option1">None</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              </select>                            </div>
-    </div>
-
-<!-----------------------------------------------------------------------------Group Assignment------------------------------------------------------------------------------------>
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Group Assignment</label>
-                              </div>
-      <div class="col-md-6">
-          <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">This is a group assignment </label>
-      </div>
-    </div>
-
-<!-------------------------------------------------------------------------------Peer Reviews---------------------------------------------------------------------------------->
-
-
-    <div class="row" style="align-items: center ;padding-top: 10px" >
-      <div class="col-md-6" style="text-align: end;padding-right: 20px;">
-        <label>Peer Reviews</label>
-                              </div>
-      <div class="col-md-6">
-          <input class ="form-check-input" type="checkbox" id="textEntry" /> <label class="form-check-label">Require Peer Reviews </label>
-      </div>
-    </div>
-
-<!--------------------------------------------------------------------------------------Assign--------------------------------------------------------------------------->
-
-
-<div class="row" style="align-items: center ;padding-bottom: 10px;padding-top: 10px " >
-<div class="col-md-6" style="text-align: end;padding-right: 20px;">
-<label>Assign</label>
-      </div>
-<div class="col-md-6">
-<label>Assign To</label><br />
-<select class="form-control ">
-<option value="option1">Everyone</option>
-<option value="option2">Option 2</option>
-<option value="option3">Option 3</option>
-</select> 
-<div class="row" >
-<div class="col-sm">
-<label>Due</label>
-</div>
-</div>
-<div class="row">
-<div class="col-sm" style="padding-right: 20;">
-<input type="date"
-     id="text-fields-due"
-      value="2021-01-01" />
-      <!-- <br /> -->
-</div>
-</div>
-<div class="row" >
-<div class="col-sm" style="padding-right: 20;">
-<div><label>Available from</label>
-</div>
-<div class="col-sm" style="padding-right: 20;">
-
-<input type="date"
-id="text-fields-due"
- value="2021-01-01" />
- <br />
-</div></div>
-
-
-<div class="col-sm">
-<div><label>Until</label>
-</div>
-<!-- <br /><br /> -->
-
-<div class="col-sm" style="padding-right: 20;">
-
-<input type="date"
-id="text-fields-due"
- value="2021-01-01" />
- <br />
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Attendance</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
 
-</div>                           </div>
-
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Digication</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
 
-
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Top Hat</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
 
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Syllabus</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
+</div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Perusall</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div> 
-<hr style="padding-top: 10px;margin-inline-start: 0px"/>  
 
-<div class="container" style="align-self: center;">
-
-<div class="center-frame">
-<div style="padding-top: 10px;">
-<input class = "form-check-input" type="checkbox" id="textEntry" /></div>
-<div style="padding-top: 10px;">
-<label class="form-check-label" style="width: 500; padding-left: 5px;" > Notify users that this content has changed </label>
-</div>
-<!-- Edit Icon not showing up-->
-<div class="container-fluid" style="align-self: center; ">
-<button type="button" class="student-view-1 float-end  " style="background-color: red; color: white; margin-left: 20px; ">Save</button>
-<button type="button" class="student-view-1 float-end ">Cancel</button>
-
-</div>
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Microsoft Teams Meeting</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
 
-
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">FACT Reporting and Photo Roster</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
-<hr style="padding-top: 10px; padding-bottom: 10px; margin-inline-start: 0px  "/>  
 
-
-
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Progress Reports (Navigate)</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Microsoft Teams for Canvas</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
+</div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">VHL Control</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
+</div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Gradescope 1.0</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
+</div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">Credentials</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
+</div>
+
+<div class="row border-bottom border-grey">
+  <div class="col">
+      <label class="pt-2">iClicker</label><br/>
+      <i class="fa fa-ellipsis-v float-end" aria-hidden="true"></i>
+      <label class="text-small pb-2">  This page won't appear in navigation </label>     
+  </div>
 </div>
 
 
-  </div></div>
+<!--Here--> 
+</div>
+  </div>
+  </div>
+
 
   <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
