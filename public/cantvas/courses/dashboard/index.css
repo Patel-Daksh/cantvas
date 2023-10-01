@@ -1,9 +1,11 @@
 .course-card {
-    max-width: 270px;
+    max-width: 250px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    /* margin: 10px; */
+    /* margin-right: 10px; */
 }
 
 .course-card img {
@@ -19,16 +21,16 @@
     margin-bottom: 0.25rem;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .course-card {
         flex: 1 0 48%; /* Adjust the width for medium-sized screens */
-    }
-}
+    /* } */
+/* } */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .course-card {
         flex: 1 0 100%; /* Set the width to 100% for small screens */
-    }
-}
+    /* } */
+/* }  */
 
 
