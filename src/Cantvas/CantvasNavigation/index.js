@@ -8,7 +8,7 @@ import '../Courses/CourseNavigation/index.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 
-function KanbasNavigation() {
+function CantvasNavigation() {
   const links = ["Account", "Dashboard", "Courses", "Calendar","Inbox","History","Studio","Commons","Help"];
 
   const linkToIconMap = {
@@ -40,4 +40,4 @@ function KanbasNavigation() {
     </div>
   );
 }
-export default KanbasNavigation;
+export default CantvasNavigation;
