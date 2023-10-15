@@ -20,8 +20,7 @@ function Courses() {
   return (
     <div  style={{width : 1300}}>
       {/* <h1>Courses {course.name} / {screen}</h1> */}
-     
-      <div class="row-sidebar" style={{width : '100%'}}>
+    <div class="row-sidebar" style={{width : '100%'}}>
     <div class="Profile-container d-none d-sm-block">
       <div class="hamburger-icon d-none d-sm-block">&#9776;</div>
       </div>

@@ -5,8 +5,8 @@ function Home() {
   return (
     <div className="row">
     <div className="col-lg-8">
-                          <div className="p-2">
-                            <div className="row row-cols-lg-auto g-3 float-end">
+                          <div className="row">
+                            <div className="row row-cols-lg-auto g-3 float-end" style={{justifyContent : 'flex-end'}}>
                             <div className="col">
                               <button className="btn btn-secondary">Collapse All</button>
                             </div>
@@ -31,10 +31,11 @@ function Home() {
                             </div>
                           </div>
                         </div>
-<div className="container" style={{height: '60%', overflowY: 'scroll'}}>
+<div className="container" >
           <div className="d-block">
 
       
+          
             <div className="mt-4">
               <ul className="list-group rounded-0">
                 <li className="list-group-item list-group-item-secondary">
