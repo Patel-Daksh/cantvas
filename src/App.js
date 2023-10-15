@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+
+import Labs from "./Labs";
+import Cantvas from "./Cantvas";
+import HelloWorld from "./Labs/a3/HelloWorld";
+import { HashRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
 
 function App() {
+  //const screen = "Labs";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <div>
+        <Routes>
+        <Route path="/" element={<Navigate to="Cantvas" />} />
+          <Route path="/Hello" element={<HelloWorld />} />
+          <Route path="/Labs/*" element={<Labs />} />
+          <Route path="/Cantvas/*" element={<Cantvas />} />
+          
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 
