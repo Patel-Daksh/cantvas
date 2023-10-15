@@ -18,9 +18,15 @@ function Courses() {
   const [empty, kanbas, courses, id, screen] = pathname.split("/");
   const course = db.courses.find((course) => course._id === courseId);
   return (
-    <div>
+    <div  style={{width : 1300}}>
       {/* <h1>Courses {course.name} / {screen}</h1> */}
      
+      <div class="row-sidebar" style={{width : '100%'}}>
+    <div class="Profile-container d-none d-sm-block">
+      <div class="hamburger-icon d-none d-sm-block">&#9776;</div>
+      </div>
+  
+              
       <div class="Profile-container">
                            <div class="text-container">
                             <nav aria-label="breadcrumb"  class="w-100">
@@ -34,6 +40,8 @@ function Courses() {
     
 
       </div>
+      </div> 
+      <hr/>
       
       <CourseNavigation />
       <div>
@@ -41,7 +49,7 @@ function Courses() {
           className="overflow-y-scroll position-fixed bottom-0 end-0"
           style={{
             left: "320px",
-            top: "50px",
+            top: "80px",
           }}
         >
           <Routes>

@@ -9,14 +9,14 @@ function CourseNavigation() {
   const { courseId } = useParams();
   const { pathname } = useLocation();
   return (
-    <div className="wd-course-navigation list-group" style={{ width: 150 }}>
+    <div className="wd-course-navigation list-group" style={{ width: 150}}>
       {links.map((link, index) => (
         <Link
           key={index}
           to={`/Cantvas/Courses/${courseId}/${link}`}
-          className={`list-group-item ${pathname.includes(link) && "active"}`}
+          className={`list-unstyled ${pathname.includes(link) && "active"}` }style={{padding : 0}}
         >
-          {link}
+          <li>{link}</li>
         </Link>
       ))}
     </div>
@@ -24,3 +24,9 @@ function CourseNavigation() {
 }
 
 export default CourseNavigation;
+
+
+
+
+
+
